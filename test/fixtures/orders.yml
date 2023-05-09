@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  submission_format: MyString
+  result: MyText
+
+two:
+  submission_format: MyString
+  result: MyText

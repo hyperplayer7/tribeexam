@@ -1,32 +1,56 @@
-# README
+## Write a ruby function that prints the numbers from 1 to 100.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<a target="_blank" href="https://dev.to/hyperplayer7">![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)</a>
+<a target="_blank" href="https://shoshin.hashnode.dev/">![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)</a>
+<a target="_blank" href="https://www.linkedin.com/in/bryancarlsonchan/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-Things you may want to cover:
+### Technologies Used
+- Git
+- Ruby
+- Rails
 
-* Ruby version
+### Commands Used / Process
+```ruby
+rails db:create 
+rails db:migrate 
+rails db:seed 
+rails s
+rspec spec/concepts/orders/
+```
 
-* System dependencies
+### Routes
+```ruby
+http://localhost:3000/ 
+http://localhost:3000/orders
+http://localhost:3000/bundles
+```
 
-* Configuration
+### Directories
+```ruby
+tribeexam/app/concepts/orders
+tribeexam/spec/concepts/orders
+```
 
-* Database creation
+### Github URL
+- https://github.com/hyperplayer7/tribeexam
 
-* Database initialization
+### Credits / References
+- https://github.com/Ileriayo/markdown-badges
 
-* How to run the test suite
+### Notes
+- Given a brands order, you are required to determine the cost and bundle breakdown for each submission
+format. For simplicity, each order should contain the minimal number of bundles.
+- Each order has a series of lines with each line containing the number of items followed by the submission
+format code
+- A successfully passing test(s) that demonstrates the following output: (The format of the output is not
+important)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
-rails db:create
-rails db:migrate
-rails db:seed
-rails generate scaffold Bundle code:string quantity:integer price:decimal
-rails generate scaffold Order submission_format:string result:text
-binding.break# tribeexam
+
+

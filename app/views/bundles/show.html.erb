@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bundle %>
+
+<div>
+  <%= link_to "Edit this bundle", edit_bundle_path(@bundle) %> |
+  <%= link_to "Back to bundles", bundles_path %>
+
+  <%= button_to "Destroy this bundle", @bundle, method: :delete %>
+</div>

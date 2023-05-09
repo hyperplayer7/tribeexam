@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Bundles</h1>
+
+<div id="bundles">
+  <% @bundles.each do |bundle| %>
+    <%= render bundle %>
+    <p>
+      <%= link_to "Show this bundle", bundle %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New bundle", new_bundle_path %>
